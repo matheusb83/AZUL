@@ -1,1 +1,8 @@
-
+#dentro ou fora entre 10 e 20
+inicio:
+ n1 = int(input("bote um numero: "))
+if (n1>=10) and (n1<=20):
+    print ("dentro")
+else:
+    print ("fora") 
+fim.
