@@ -1,1 +1,12 @@
-
+#verificar se é positivo e par, positivo e impar, negativgo e pa, negativo e impar
+inicio:
+n1 = int(input ("digite um valor: "))
+if (n1 %2 == 0) and (n1>0):
+    print ("par e positivo")
+elif (n1 %2 == 0) and (n1<0):
+    print ("par e negativo")
+elif (n1 %2 == 1) and (n1>0):
+    print ("impar e positivo")
+elif (n1 %2==1) and (n1<0):
+    print ("impar e negativo") 
+fim.
