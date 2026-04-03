@@ -7,4 +7,4 @@ try:
     print (n1 ** 2)
 except:
     print (type(n1)) 
-fim.
+fim.            # descobri o try
