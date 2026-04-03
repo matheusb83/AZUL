@@ -1,1 +1,8 @@
-
+#ver se é multiplo por 3
+inicio:
+ n1 = int(input("bote um numero: "))
+if (n1 %3== 0):
+    print ("é multiplo")
+else:
+    print("não é multiplo") 
+fim.
