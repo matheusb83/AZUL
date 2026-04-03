@@ -1,0 +1,10 @@
+#ver se é texto ou numero
+inicio: 
+ n1 = (input ("digite um valor: "))
+try:
+    n1 = int(n1)
+    print (type(n1))
+    print (n1 ** 2)
+except:
+    print (type(n1)) 
+fim.
