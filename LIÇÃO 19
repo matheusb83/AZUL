@@ -1,1 +1,10 @@
-
+#são diferentes ou iguais e mostrar a diferença entre eles
+inicio:
+ n1= int(input("digite o primeiro numero: "))
+n2 = int(input("digite outro numero: "))
+if (n1 == n2):
+    print ("são iguais")
+else:
+    print ("são diferentes")
+    print (n1 - n2)
+fim.
