@@ -1,1 +1,12 @@
-
+#par e negativo, par e positivo, impar e negativo, par e negativo
+INICIO: 
+ n1 =int(input("digite um valor: "))
+if (n1>0) and (n1 %2 == 0):
+    print ("par e positivo")
+elif (n1<0) and (n1 %2 == 0):
+    print ("par e negativo")
+elif (n1>0) and (n1 %2 == 1):
+    print ("impar e postivo")
+elif (n1<0) and (n1 %2 == 1):
+    print ("impar e negativo")
+FIM.
