@@ -1,1 +1,10 @@
-
+#ver se é adulto ou idoso (18+) ou (60+)
+inicio:
+n1 = int(input ("digite um valor: "))
+if (n1>=18) and (n1<60):
+    print ("adulto")
+elif (n1>=60):
+    print("decrepto")
+elif (n1<18):
+    print ("barrado na festa")
+fim.
