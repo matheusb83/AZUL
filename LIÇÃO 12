@@ -1,1 +1,11 @@
-
+#mostre a soma e mostre qual dos dois numeros é maior
+inicio:
+ n1 = int(input("bote um numero: "))
+n2 = int(input("digite outro numero: "))
+soma = (n1 + n2)
+print ("a soma dos dois números é: ", soma)
+if (n1>n2):
+    print  ("n1 é maior que n2")
+else:
+    print ("n1 é maior que n2")
+fim.
